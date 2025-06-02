@@ -48,7 +48,7 @@ It’s intended for educational and demo purposes, and will serve as a foundatio
 
 ## 📁 Files
 
-* `simple-interest.sh`: The main shell script
+* `simple-interest.sh`: The main shell code
 * `README.md`: This file
 * `CODE_OF_CONDUCT.md`: Community guidelines
 * `CONTRIBUTING.md`: Contribution guidelines
