@@ -16,7 +16,7 @@ It’s intended for educational and demo purposes, and will serve as a foundatio
 
 ---
 
-## 📪 How to Use
+## 📩 How to Use
 
 1. Clone the repository:
 
@@ -25,35 +25,41 @@ It’s intended for educational and demo purposes, and will serve as a foundatio
    cd simple-interest-calculator
    ```
 
-2. Run the script:
-
-   If using Python:
+2. Make the script executable and run it:
 
    ```bash
-   python simple_interest.py
+   chmod +x simple-interest.sh
+   ./simple-interest.sh
    ```
 
    Sample output:
 
    ```
-   Simple Interest is: 100.0
+   Enter Principal Amount (P):
+   1000
+   Enter Rate of Interest (R):
+   5
+   Enter Time in Years (T):
+   2
+   Simple Interest is: 100.00
    ```
 
 ---
 
 ## 📁 Files
 
-* `simple_interest.py`: The main script
+* `simple-interest.sh`: The main shell script
 * `README.md`: This file
 * `CODE_OF_CONDUCT.md`: Community guidelines
-* `.gitignore`: Basic language-specific exclusions
+* `CONTRIBUTING.md`: Contribution guidelines
+* `.gitignore`: Shell script-related exclusions
 * `LICENSE`: Apache License 2.0
 
 ---
 
 ## 🤝 Contributing
 
-I welcome community contributions! If you'd like to help improve or extend this project:
+We welcome community contributions! If you'd like to help improve or extend this project:
 
 1. Fork the repo
 2. Create a new branch: `git checkout -b feature-name`
