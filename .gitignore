@@ -1,0 +1,22 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
+*~
+
+# Ignore log files and backups
+*.log
+*.bak
+
+# Ignore environment files
+.env
+
+# Ignore compiled binaries or outputs (if any scripts produce them)
+*.out
+*.exe
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
